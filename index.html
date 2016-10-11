@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ajuste de Fonte - ACESSIBILIDADE</title>
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="alternate stylesheet" type="text/css" href="css/fontegrande.css" title="fontegrande" id="fontegrande" />
+	<script type="text/javascript" src="js/styleswitcher.js"></script>
+	<script type="text/javascript">
+		<!--
+		function setActiveStyleSheet(title,id) {
+			var i, a, main;
+			for(i=0;(a=document.getElementsByTagName("link")[i]);i++){
+				if(a.getAttribute("rel").indexOf("style") != -1 && a.getAttribute("title") && a.getAttribute("id") == id) {
+					a.disabled = true;
+					if(a.getAttribute("title") == title)
+						a.disabled = false;
+				}
+			}
+		}
+		-->
+	</script>
+  </head>
+  <body>
+	<div id="container">
+		<div id="botoes">
+			<a href="#" class="tamfonte font_ajusta" onclick="setActiveStyleSheet('fontegrande','fontegrande'); return false;" id="aumentar" title="Aumentar Tamanho do Texto">A+</a>
+			<a href="#" class="tamfonte font_ajusta" onclick="setActiveStyleSheet('fontenormal','fontegrande'); return false;" id="voltar" title="Tamanho do Texto Normal"> A-</a>
+		</div>
+		
+		<h1>Título</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet magna ac magna bibendum pretium sed et dui. Vestibulum quis quam lacus. Etiam lobortis mattis mauris sit amet elementum. Praesent quam dolor, dictum ut venenatis ac, egestas vel massa. Aliquam sit amet cursus neque, quis euismod libero. Aliquam commodo risus vel auctor consequat. Vestibulum magna massa, maximus et vestibulum fermentum, bibendum vel erat. Duis at purus vel metus luctus dictum vel eu urna. Suspendisse venenatis urna ut aliquam sagittis. Morbi ornare neque purus, sed porta metus imperdiet nec. Ut pellentesque, diam at finibus maximus, neque nisl aliquam justo, eget cursus neque metus ac tellus. Nam auctor ipsum sit amet dolor gravida facilisis at at sem. Donec gravida nulla eu porttitor bibendum. Pellentesque erat lectus, placerat ut dignissim eget, egestas eu nunc. Vivamus pulvinar risus vel leo vulputate egestas.</p>
+
+		<p>Sed in lectus velit. Aenean viverra, lectus non venenatis consequat, tellus mi feugiat justo, bibendum scelerisque lectus dolor ac massa. Mauris scelerisque est ligula, in lobortis leo fringilla non. Aenean non mauris ac purus convallis tempus vel vitae nibh. Cras ac augue mi. Aliquam quis ex sed nibh lacinia bibendum ut et metus. Pellentesque id vestibulum ipsum, in pretium justo. Integer varius interdum odio vitae ornare. Cras id euismod metus.</p>
+		<h4>Subtítulo</h4>
+		<p>Nam justo libero, laoreet ac cursus id, cursus sed tortor. Fusce porttitor, nisi ut iaculis condimentum, erat turpis aliquam lacus, non rhoncus lacus libero et sapien. In placerat in sem sed dapibus. Aenean et mauris nisl. Pellentesque pharetra venenatis diam in suscipit. Donec ultricies consequat lectus, nec tempus eros condimentum nec. Vestibulum quis lorem quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a semper ex, at varius purus. Phasellus nec dolor cursus, lacinia magna eu, euismod nisl. Aliquam in mauris odio. Maecenas neque libero, vulputate non vestibulum in, cursus vel ligula. Cras dignissim nec magna eu finibus. Curabitur pretium nulla eu lorem gravida, vitae commodo purus congue. Sed eget pretium arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+		<p>Praesent nec magna in sapien scelerisque maximus. Etiam tincidunt at neque quis vulputate. Nam finibus libero sed molestie aliquam. Ut non faucibus diam. Morbi eget lobortis ipsum. Mauris a arcu quam. Curabitur sit amet laoreet leo. Sed iaculis magna in augue sollicitudin aliquet. Nulla facilisi.</p>
+
+		<p>Curabitur erat augue, iaculis eget sem at, iaculis placerat elit. Phasellus lacinia consectetur ante, nec pulvinar sapien tincidunt id. Aliquam vehicula semper turpis. Nullam molestie tellus ligula, non vestibulum nulla blandit id. Suspendisse eget nulla fringilla, condimentum libero eget, tempus nibh. Nam id fringilla urna. Mauris quis quam consequat, hendrerit turpis a, facilisis sapien. Nunc est nunc, maximus eget diam ac, ultricies faucibus mauris. Phasellus facilisis sed justo et pulvinar. Morbi lacinia erat sit amet sapien tristique, ut ultricies neque dignissim. Donec sodales, risus non suscipit laoreet, dolor sem venenatis lorem, eget cursus nisl quam ut nulla. Donec id metus in enim venenatis vulputate a id nunc.</p>
+	</div>
+</body>

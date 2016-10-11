@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*BASICO*/
+@media only screen and (min-width:769px), screen and (min-device-width:769px) {
+	body {
+		font-size: 1.5em;
+		line-height: 1.4em;
+	}
+}
+
+@media only screen and (max-width:768px), screen and (max-device-width:768px) {
+	body {
+		font-size: 0.975em;
+		line-height: 1.9em;
+	}
+}
+
+@media only screen and (min-width:769px), screen and (min-device-width:769px) {
+#botoes{ font-size:0.9em; }
+}
+
+@media only screen and (max-width:768px), screen and (max-device-width:768px) {
+#botoes{ font-size:0.7em; }
+}
+
+h6{
+	font-size: 1.1em;
+}
+
+h5{
+	font-size: 1.2em;
+}
+
+h4{
+	font-size: 1.3em;
+}
+
+p{
+	font-size: 0.8em;
+}
+
+.breadcrumb { 
+	font-size: 0.8em;
+}
+
+footer {
+	line-height: 2.8em;
+	font-size: 0.812em;
+}
+
+.badge{
+	font-size: 1.0em;
+}
+
+.footer-nav{
+	font-size: 1.1em;
+}
+
+.breadcrumb-arrow {
+	font-size: 1.0em;
+}
+
+.panel-title{
+	font-size: 1.1em;
+}
+
+.pagination {
+	font-size: 1.1em;
+}
